@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="NO">
+    <meta charset="UTS-8">
+    <head>
+        <title>
+            oppgave 2
+        </title>
+    </head>
+    <body>
+        <main>
+            <section class="overskrift">
+                <article>Hotel Cesar</article>
+            </section>
+            <section class="linker">
+                <article class="rom"><a href="rom.html">booking av rom</a></article>
+                <article class="mat"><a href="rom.html">Mat servering</a></article>
+                <article class="historie"><a href="rom.html">Vår historie</a></article>                
+            </section>
+            <section class="bilde">
+                <div></div>
+            </section>
+        </main>
+    </body>
+</html>
+<style>
+    main {
+        height: 99vh;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    .linker article {
+        display: flex;
+        width: 33vw;
+        height: 10vh;
+        background-color: aqua;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .overskrift article {
+        display: flex;
+        background-color: skyblue;
+        height: 15vh;
+        width: 99vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    .bilde {
+        display: flex;
+        width: 98vw;
+        height: 75vh;
+        background-image: url(hotel.jpg);
+        background-size: cover;
+        background-position: top;
+        object-fit: cover;
+    }
+
+</style>
